@@ -1,5 +1,17 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "enableProguardInReleaseBuilds": true
+          }
+        }
+      ]
+    ],
     "name": "smartlook-bug",
     "slug": "smartlook-bug",
     "version": "1.0.0",
